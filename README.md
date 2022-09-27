@@ -67,3 +67,23 @@ Will Prowse distributed across his:
 I might come up with a study plan and I will definitely intertwine projects of
 increasing scale into the learing process, all of which will be covered in this
 repository.
+
+## SOK 12 V 206 Ah LiFePO4 battery
+
+In my system with a single panel and a single battery that I already have
+running as an initial experiment, I am using a cheap SLA battery with a very low
+capacity.
+I have bought this battery as a replacement and future-proofing for this system
+as it uses the LiFePO4 chemistry and has low temperature charging protection as
+well as a marine-grade case resistant to humidity which is currently important
+to me as the system is running in my barn where both the temperature and the
+humidity are a problem in winter months.
+
+https://www.europe.sokbattery.com/product-page/marine-grade-12v-206ah-lifepo4-battery-sealed-plastic-box-bluetooth-built-in-he
+
+![](sok-battery.png)
+
+I'll need to buy a proper solar charge controller and inverter to use with it
+next.
+
+- [ ] Wait for the battery to come and install it into the system
