@@ -87,3 +87,12 @@ I'll need to buy a proper solar charge controller and inverter to use with it
 next.
 
 - [ ] Wait for the battery to come and install it into the system
+
+I've also bought two voltage meters to use with the battery:
+https://www.aliexpress.com/item/1005001763596519.html
+
+I got two so that one can permanently keep displaying capacity and the other
+voltage.
+
+- [ ] Wait for the voltage meters to arrive
+
