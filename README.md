@@ -86,7 +86,7 @@ https://www.europe.sokbattery.com/product-page/marine-grade-12v-206ah-lifepo4-ba
 I'll need to buy a proper solar charge controller and inverter to use with it
 next.
 
-- [ ] Wait for the battery to come and install it into the system
+- [ ] ~10/08 Wait for the battery to come and install it into the system
 
 I've also bought two voltage meters to use with the battery:
 https://www.aliexpress.com/item/1005001763596519.html
