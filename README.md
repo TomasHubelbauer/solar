@@ -125,7 +125,7 @@ I've also bought two voltage meters to use with the battery:
 
 https://www.aliexpress.com/item/1005001763596519.html
 
-![](battery-gauge.jpeg)
+![](battery-gauge.jpg)
 
 I got two so that one can permanently keep displaying capacity and the other
 voltage.
