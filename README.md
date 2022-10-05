@@ -258,7 +258,7 @@ I am going to get the 100 V / 15 A Bluetooth one from NaradiHned as it costs
 3.5k CZK there as opposed to 5.3k on Alza.
 It will take longer to arrive, but I can wait.
 
-- [ ] Order the 100 V / 15 A Bluetooth Victron BlueSolar charge controller
+- [ ] Get the 100 V / 15 A controller from NaradiHned delivered to the box
 
 Once I get more panels, I will get the 100 V / 30 A one and sell this one.
 
