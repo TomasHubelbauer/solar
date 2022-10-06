@@ -1,7 +1,7 @@
 # Solar
 
 Throughout the next few years, I aim to experiment with and learn about solar
-system with the ultimate goal of building a couple of systems on my property.
+systems with the ultimate goal of building a couple of systems on my property.
 
 This repository is used to track the progress of both my learning and building.
 
