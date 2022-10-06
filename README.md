@@ -157,11 +157,11 @@ There are a few configurations these could be wired in:
 - A series-parallel configuration - there are multiple options
 
 Connecting them in parallel is not a great idea, because I would have to get
-some dummy thick wires to be able to move 50 A of current.
+some dummy thick wires and controller to be able to move 50 A of current.
 As I understand it, a 100 % parallel setup is mainly used with small systems
 which use PWM controllers, not really as much with MPPT controllers.
 
-Connecting them in series could work, but only with a solar changed controller
+Connecting them in series could work, but only with a solar charge controller
 capable of handling 100 V at 10 A.
 
 https://www.alza.cz/victron-mppt-regulator-smartsolar-100-15-d5855306.htm
@@ -172,7 +172,7 @@ It is my understanding that it is best to leave some headroom so that the solar
 charge controller can handle temperature change etc.
 Running it this close to the max spec could ruin it and they aren't cheap.
 
-Let's run through the options for series-parallel connection.
+Let's run through the options for a series-parallel connection.
 I am going to consider only the options with equal array lengths.
 Here is an article which goes over mixing different solar panels (or strings)
 and it almost always results in lower efficiency:
