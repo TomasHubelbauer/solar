@@ -79,6 +79,50 @@ I could take my time with the attempts to gather enough storage to make the shed
 run solely off batteries and before I get there, switch to the grid whenever the
 current state of the storage doesn't cut it.
 
+## Window
+
+I have a unused utility window in my apartment which is very narrow and not too
+useful as a regular window, but it is positioned such that it gets a decent
+amount of light.
+
+I have decided to also run a miniature system for fun using solar panels that
+are chosen for fit instead of for performance and a PWM solar charge controller
+as the panels produce so little current, even when they are all in paralle, any
+dirt cheap solar charge controller can handle it and PWM is supposed to be a
+bit better for purely paralle installations.
+
+The panels I bought to board up the window with are these:
+
+https://www.aliexpress.com/item/1005003123354268.html
+
+I bought six of them and wired them in parallel.
+They state an 18 V 5 W performance which works out to I = P/V = 5/18 = .278 A.
+6 in parallel then produce a string with 18 V 1.7 A theoretical performance.
+
+I got a super cheap PWM solar charge controller to go along with them:
+
+https://www.alza.cz/bygd-solarni-regulator-nabijeni-pv2420u-d6959817.htm
+
+The controller charges this little 12 V 7.2 Ah battery:
+
+https://www.alza.cz/auto/csb-evx1272-baterie-12v-7-2ah-d5597727.htm
+
+I might end up upgrading to a bigger SLA battery, like this 12 V 24 Ah one:
+
+https://www.alza.cz/auto/goowei-energy-6-dzm-20-baterie-12v-24ah-electric-vehicle-d6217380.htm
+
+Or I might end up getting a LFP battery instead, I found this small one:
+
+https://www.aliexpress.com/item/1005002405783446.html
+
+So far I have wired up the solar panels, the charge controller and the battery
+and next up I will need to see the solar panels perform compared to the theory
+and how long they take to charge the battery.
+
+I am thinking of running a Pi Pico W off it and I think the battery will have
+enough capacity for this, but I am not so sure if the panels will be able to
+cycle it every day.
+
 ## Resources
 
 There is a bunch of solid solar resources online and I've already absorbed a
