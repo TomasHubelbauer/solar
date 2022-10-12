@@ -115,13 +115,42 @@ Or I might end up getting a LFP battery instead, I found this small one:
 
 https://www.aliexpress.com/item/1005002405783446.html
 
-So far I have wired up the solar panels, the charge controller and the battery
-and next up I will need to see the solar panels perform compared to the theory
-and how long they take to charge the battery.
+The panels generate 1 A on 18 V, that's 18 W across the 6 panels in parallel.
+In 4 hours of peak sun, they could theoretically produce up to 72 Wh.
 
-I am thinking of running a Pi Pico W off it and I think the battery will have
-enough capacity for this, but I am not so sure if the panels will be able to
-cycle it every day.
+The battery has a capacity of 24 Ah at 12 V.
+That's 288 Wh.
+
+It would require 16 hours of peak sun to charge it from zero to full capacity.
+I am ignoring the fact that it is a SLA battery for now as I will switch to LFP.
+
+Since I can't cycle the battery daily, I need to work out how much of it I can
+drain in a day to have it be replenished the next day.
+
+In 4 hours of peak sun I can put 72 Wh of energy into the battery, which is 25 %
+of its capacity.
+I can use up 25 % of the battery's capacity daily without worrying about using
+up more than the solar can recharge.
+In a realistic scenario, this will be closer to like 15 % because of the solar
+inefficiency (panel quality and orientation, weather conditions) and the losses
+incurred in the solar charge controller.
+
+I am thinking of running a Pi Pico W off this system.
+The information I found online suggests it can use anywhere between 1 mA while
+sleeping and 100 mA with the wi-fi chip running.
+That's 0.1 Ah to power the Pi Pico W for one hour with the wi-fi on.
+The Pi Pico W runs off 3.3 V or 5 V.
+At 5 V that's 0.5 Wh.
+25 % of the battery capacity is 72 Wh.
+That should work out to 144 h of operation off 25 % of the battery capacity.
+It looks like powering the Pi Pico W should be well within the capacity of this
+small system.
+
+What about a 5 W 12 V LED car light?
+72 / 5 is 14 hours of continuous operation of the car light off 25 % battery.
+
+Next I will take a look at a Pi Pico with a camera connected running OCR on the
+PWM solar charge controller display to see if it could self-monitor.
 
 ## Resources
 
