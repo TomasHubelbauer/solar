@@ -152,6 +152,13 @@ What about a 5 W 12 V LED car light?
 Next I will take a look at a Pi Pico with a camera connected running OCR on the
 PWM solar charge controller display to see if it could self-monitor.
 
+I might also try with 4 of these 18 V 30 W panels:
+https://www.aliexpress.com/item/1005003956761039.html
+
+They would get partially shaded but it could still work maybe?
+Their theoretical maximum is 120 Wh as opposed to the current 72 Wh.
+That's a nice bump.
+
 ## Resources
 
 There is a bunch of solid solar resources online and I've already absorbed a
