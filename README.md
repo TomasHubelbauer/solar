@@ -159,6 +159,59 @@ They would get partially shaded but it could still work maybe?
 Their theoretical maximum is 120 Wh as opposed to the current 72 Wh.
 That's a nice bump.
 
+## Shop
+
+I have a little workshop room in my barn which is where my solar experimentation
+started.
+
+This system started off with this setup:
+
+- Viking SCM135 135 Wp panel
+- BYGD SPT-20A MPPT controller
+- Goowei 6-DZM-20 12 V 24 Ah SLA battery
+
+I got all of these components off Alza in order to put together a small POC.
+
+Nowadays it sports and upgraded controller and battery:
+
+- Viking SCM135 135 Wp panel
+- Victron SmartSolar 100/15 MPPT controller
+- SOK 12 V 206 Ah LFP battery
+
+The controller upgrade is there as I am gearing up to introduce a 4 panel series
+array which will need a beefier controller like the one I got and the battery is
+there for the same reason as the new array should deliver more punch.
+
+This is what the system will look like once I install the new panels I got:
+
+- Victron 175 Wp 4s1p
+- Victron SmartSolar 100/15 MPPT controller
+- SOK 12 V 206 Ah LFP battery
+
+I also have an order of two battery gauges in transit and I will install these
+to be able to monitor both the capacity and the voltage of the battery at the
+same time.
+
+- [ ] Get the battery gauge delivered
+
+| Image | Name | Link |
+|-|-|-|
+| ![](viking-scm135.png) | Viking SCM135 135 Wp | [viking-scm135] |
+|| BYGD SPT-20A | [bygd-spt-20a] |
+|| Goowei 6-DZM-20 12 V 24 Ah SLA | [goowei-6-dzm-20] |
+|| Victron SmartSolar 100/15 MPPT BT | [victron-100-15-bt] |
+| ![](sok-battery.png) | SOK 12 V 205 Ah LFP | [sok-12v-206ah] |
+| ![](victron-panel.png) | Victron 175 Wp | [victron-175wp] |
+| ![](battery-gauge.jpg) | AliExpress battery gauge | [battery-gauge] |
+
+[viking-scm135]: https://www.alza.cz/viking-solarni-panel-scm135-d7240974.htm
+[bygd-spt-20a]: https://www.alza.cz/bygd-solarni-regulator-nabijeni-spt-20a-d6959818.htm
+[goowei-6-dzm-20]: https://www.alza.cz/auto/goowei-energy-6-dzm-20-baterie-12v-24ah-electric-vehicle-d6217380.htm
+[victron-100-15-bt]: https://www.naradihned.cz/solarni-regulatory-victron-energy/mppt-solarni-regulator-victron-energy-smartsolar-100-15
+[sok-12v-206ah]: https://www.europe.sokbattery.com/product-page/marine-grade-12v-206ah-lifepo4-battery-sealed-plastic-box-bluetooth-built-in-he
+[victron-175wp]: https://www.solar-eshop.cz/p/fv-panel-victron-energy-175wp
+[battery-gauge]: https://www.aliexpress.com/item/1005001763596519.html
+
 ## Resources
 
 There is a bunch of solid solar resources online and I've already absorbed a
@@ -176,41 +229,7 @@ repository.
 
 I also bought Will's book.
 
-- [ ] Get the book delivered
-
 ## WIP
-
-### Better battery for the single-solar setup I already have running
-
-In my system with a single panel and a single battery that I already have
-running as an initial experiment, I am using a cheap SLA battery with a very low
-capacity.
-
-I have bought a SOK 12 V 206 Ah LiFePO4 battery as a replacement and improvement
-to this system as it uses the LiFePO4 chemistry and has low temperature charging
-protection as well as a marine-grade case resistant to humidity which is needed
-as the system is running in the shop in my barn where both the temperature and
-the humidity are a problem in winter months.
-
-https://www.europe.sokbattery.com/product-page/marine-grade-12v-206ah-lifepo4-battery-sealed-plastic-box-bluetooth-built-in-he
-
-![](sok-battery.png)
-
-I'll need to buy a proper solar charge controller and inverter to use with it
-next.
-
-- [ ] Get the battery delivered
-
-I've also bought two voltage meters to use with the battery:
-
-https://www.aliexpress.com/item/1005001763596519.html
-
-![](battery-gauge.jpg)
-
-I got two so that one can permanently keep displaying capacity and the other
-voltage.
-
-- [ ] Get the battery gauge delivered
 
 ### Land-mounted solar panel array
 
