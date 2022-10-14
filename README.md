@@ -194,6 +194,33 @@ same time.
 
 - [ ] Get the battery gauge delivered
 
+The solar panel produces 135 W at peak sun cover.
+Assuming a four hour peak sun cover, that's 540 Wh in a day.
+The battery capacity is 200 Ah * 12 V = 2400 Wh.
+This means we can replenish 20 % of the battery capacity every day.
+I am powering three 5 W car bulbs for 24 hours a day off it currently.
+That's 15 W a day.
+Disconnected from the solar panel and at full capacity, the battery could power
+this load for 2400 Wh / 15 W = 160 h = 6 days.
+In a day, the full 24 hours, the bulbs consume 15 W * 24 h = 360 Wh.
+Since the panel produces 540 Wh in ideal conditions and around 380 Wh with the
+70 % factor, its production should just about cover this load consumption each
+day.
+Theoretically, the system should be able to run continuously forever, then.
+
+Yet, it died after less than a week, almost exactly as if the battery was not
+even charging in the first place.
+
+- [ ] Figure out what happened with the charge controller once I am at the barn
+
+With the four new panels in 4s1p I'd be getting 800 W * 4 h = 3200 Wh a day.
+With the 70 % factor, that's 2240 Wh.
+The battery capacity is 2400 Wh so the new system should be able to cycle or
+very close to cycle the battery every day.
+
+And if that turns out to be correct and working, I should be able to use those
+2400 W each day across various loads including a 12 V DC to 230 V AC inverter.
+
 | Image | Name | Link |
 |-|-|-|
 | ![](viking-135wp.png) | Viking SCM135 135 Wp | [viking-scm135] |
@@ -229,6 +256,21 @@ increasing scale into the learing process, all of which will be covered in this
 repository.
 
 I also bought Will's book.
+
+### Basic sizing calculation
+
+1. Calculate the theoretical panel/array performance
+  - Note that the panel voltage should be around 5 V above battery voltage
+  - Multiply amperage by voltage to get the wattage, e.g.: 10 A at 18 V = 180 W
+  - Multiply the power by the peak sun cover hours, e.g.: 180 W * 4 h = 720 Wh
+  - Multiply by the factor of 70 % to get closer to real life performance
+2. Calculate the battery capacity
+  - Multiply the amperage per hour by the voltage, e.g.: 200 Ah * 12 V = 2400 Wh
+3. Calculate the peak sun cover hours required to fully charge the battery
+  - Divide battery capacity by the solar capacity, e.g.: 2400 Wh / 720 Wh = 4 h
+4. Calculate the desired load to see how long the battery can power it for
+  - Ensure you are using compatible load, 12 V load for a 12 V battery
+  - Divide the battery capacity by the power draw, e.g.: 2400 Wh / 12 W = 6 d
 
 ## WIP
 
