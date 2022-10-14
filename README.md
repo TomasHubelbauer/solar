@@ -196,13 +196,14 @@ same time.
 
 | Image | Name | Link |
 |-|-|-|
-| ![](viking-scm135.png) | Viking SCM135 135 Wp | [viking-scm135] |
-|| BYGD SPT-20A | [bygd-spt-20a] |
-|| Goowei 6-DZM-20 12 V 24 Ah SLA | [goowei-6-dzm-20] |
-|| Victron SmartSolar 100/15 MPPT BT | [victron-100-15-bt] |
+| ![](viking-135wp.png) | Viking SCM135 135 Wp | [viking-scm135] |
+| ![](bygd-spt-20a.png) | BYGD SPT-20A | [bygd-spt-20a] |
+| ![](goowei-6-dzm-20.png) | Goowei 6-DZM-20 12 V 24 Ah SLA | [goowei-6-dzm-20] |
+| ![](victron-100-15-mppt-bt.png) | Victron SmartSolar 100/15 MPPT BT | [victron-100-15-bt] |
 | ![](sok-battery.png) | SOK 12 V 205 Ah LFP | [sok-12v-206ah] |
-| ![](victron-panel.png) | Victron 175 Wp | [victron-175wp] |
-| ![](battery-gauge.jpg) | AliExpress battery gauge | [battery-gauge] |
+| ![](victron-175wp.png) | Victron 175 Wp | [victron-175wp] |
+| ![](battery-gauge-percentage.png) | AliExpress battery gauge | [battery-gauge] |
+| ![](battery-gauge-voltage.png) | AliExpress battery gauge | [battery-gauge] |
 
 [viking-scm135]: https://www.alza.cz/viking-solarni-panel-scm135-d7240974.htm
 [bygd-spt-20a]: https://www.alza.cz/bygd-solarni-regulator-nabijeni-spt-20a-d6959818.htm
