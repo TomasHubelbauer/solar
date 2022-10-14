@@ -221,16 +221,16 @@ very close to cycle the battery every day.
 And if that turns out to be correct and working, I should be able to use those
 2400 W each day across various loads including a 12 V DC to 230 V AC inverter.
 
-| Image | Name | Link |
-|-|-|-|
-| ![](viking-135wp.png) | Viking SCM135 135 Wp | [viking-scm135] |
-| ![](bygd-spt-20a.png) | BYGD SPT-20A | [bygd-spt-20a] |
-| ![](goowei-6-dzm-20.png) | Goowei 6-DZM-20 12 V 24 Ah SLA | [goowei-6-dzm-20] |
-| ![](victron-100-15-mppt-bt.png) | Victron SmartSolar 100/15 MPPT BT | [victron-100-15-bt] |
-| ![](sok-battery.png) | SOK 12 V 205 Ah LFP | [sok-12v-206ah] |
-| ![](victron-175wp.png) | Victron 175 Wp | [victron-175wp] |
-| ![](battery-gauge-percentage.png) | AliExpress battery gauge | [battery-gauge] |
-| ![](battery-gauge-voltage.png) | AliExpress battery gauge | [battery-gauge] |
+| Image | Link |
+|-|-|
+| ![](viking-135wp.png) | [Viking SCM135 135 Wp][viking-scm135] |
+| ![](bygd-spt-20a.png) | [BYGD SPT-20A][bygd-spt-20a] |
+| ![](goowei-6-dzm-20.png) | [Goowei 6-DZM-20 12 V 24 Ah SLA][goowei-6-dzm-20] |
+| ![](victron-100-15-mppt-bt.png) | [Victron SmartSolar 100/15 MPPT BT][victron-100-15-bt] |
+| ![](sok-battery.png) | [SOK 12 V 205 Ah LFP][sok-12v-206ah] |
+| ![](victron-175wp.png) | [Victron 175 Wp][victron-175wp] |
+| ![](battery-gauge-percentage.png) | [AliExpress battery gauge (percentage mode)][battery-gauge] |
+| ![](battery-gauge-voltage.png) | [AliExpress battery gauge (voltage mode)][battery-gauge] |
 
 [viking-scm135]: https://www.alza.cz/viking-solarni-panel-scm135-d7240974.htm
 [bygd-spt-20a]: https://www.alza.cz/bygd-solarni-regulator-nabijeni-spt-20a-d6959818.htm
