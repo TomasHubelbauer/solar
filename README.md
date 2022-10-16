@@ -1,29 +1,40 @@
 # Solar
 
-Throughout the next few years, I aim to experiment with and learn about solar
-systems with the ultimate goal of building a couple of systems on my property.
+I am dabbling with building solar systems.
+Currently I have a single panel single battery rig in my shop.
+I want to build up knowledge and experience and electrify the shop, the barn and
+a couple of other sites in the coming years.
 
-This repository is used to track the progress of both my learning and building.
+This document tracks the progress of my solar education as well as the status of
+all of the solar systems I have in mind or am already building.
 
 ## House
 
-I don't intend to install solar on my house myself.
-The risk of messing up in this application is too great and there are added
-complexities in terms of the decision between an island system or a grid-tie
-system.
-Currently, I don't like the idea of a grid-tie system.
-I do want to get the house fitted with solar, but I will most likely have a
-contractor drive both the system design and the installation.
-I will keep an eye on sourcing the panels, the batteries and the inverted though
-as the local market prices seem overblown.
+I don't intend on installing house solar myself.
+I would like to get a company to do it, but do it by the time I have gained
+enough knowledge and experience with solar that I'll be able to oversee the
+work and make sure I am not getting ripped off.
+Also, I think I will end up sourcing the panels and the batteries myself.
+This will most likely be a 48 V system.
+The goal is to make this an island system, I don't like the idea of grid-tie.
+
+### Status
+
+TODO
 
 ## Shed
 
-I had a shed in mind I plan on building on the garden.
-This is a perfect application for a DIY solar system IMO.
-The shed roof will be about 7x4 m so it should fit quite a few solar panels.
-I am not sure the total capacity I will be able to get out of that system, but
-I want to power the following appliances with it:
+I'm looking at getting a garden shed built and it seems like a prime opportunity
+to install solar and test out an island system.
+
+### Status
+
+TODO
+
+### Sizing
+
+The shed roof will be 7x4 m so 28 m2.
+I want to power the following appliances with the system:
 
 - lights (internal and external)
 - outlets (chargers and tools)
@@ -34,130 +45,161 @@ I want to power the following appliances with it:
 - cameras
 - network
 
-Time will tell whether it will be financially feasible to install enough panels
-and batteries to make this system a reality.
+In order to make this system a reality, I will need to build the shed, but also
+to calculate the expected peak and sustained load of the above listed appliances
+and see if it would be possible to install enough panels to be able to cycle a
+battery daily and whether the battery bank would be able to support the loads.
 
 ## Basement
 
-The house basement is electrified and the electricity is used to run lights,
-a ventilation/dehumidification loop, a well pump, a washer, a fridge, a freezer
-and some sensors (temperature, humidity) and cameras.
+I am tracking the electrification of the house in [House][#house], but I think
+it might make sense to isolate the basement as a system of its own and DIY it
+separately from the house itself.
 
-I might be able to disconnect the basement from the house wiring and instead
-power it off solar without having to put up panels on the roof.
-I could use a land mounted system for it I believe.
+The reason is that while I don't want to install the panels on the house myself,
+I will likely do it on the shed and the shed array might be able to generate
+enough power to support both the shed and the basement.
 
-I plan on adding a heat pump to the house so the main test will be whether it
-could be powered off the basement system as well or if it would have to be
-connected to the house wiring.
+If that ends up the case, the basement system could exist much sooner than the
+house system and be completely independent of it both electrically and in terms
+of construction.
 
-I might end up keeping the house and the basement integrated and running off
-rooftop solar both.
+### Status
+
+TODO
+
+### Sizing
+
+I want to power the following appliances with the system:
+
+- lights
+- ventilation
+- dehumidification
+- well pump
+- washer
+- dryer
+- fridge
+- freezer
+- sensors (temperature, humidity)
+- cameras
+- heat pump?
 
 ## Barn
 
-This system would be the most complicated.
-I can do rooftop solar on the barn and there I might even take a stab at doing
-it myself, but the question here is of course again the total available power.
+This seems like the most complicated system I have in mind, because I have 380 V
+machines in the barn that seems like they will be harder to support on a battery
+bank than grid power.
 
-I do have a bunch of power tools and machines in the barn which would require a
-really big and solid battery setup to run completely in island mode.
-Some of the machines use three phase 380 V power which seems like it would be
-hard to replace with a batter setup.
-I am sure a three phase inverter costs a fortune.
+Maybe they make good enough inverters to make this real or maybe I will end up
+replacing these machines with 230 V counterparts as they are all old and it is
+possible that nowadays you can get just as capable tools that don't require a
+380 V outlet.
 
-I might migrate to battery-based power tools and maybe replaced some of the shop
-machines with more modern ones which might make do with a single phase, but it
-will still be a lot of power that I'll have to make available for this project
-to be a success.
-Do they even make 230 V single phase planers and saws?
-And are they any good?
+### Status
 
-This system seems like a good candidate for an interim phase which would not be
-a grid-tie system, but a switch system between 100 % grid and 100 % batteries.
-I could take my time with the attempts to gather enough storage to make the shed
-run solely off batteries and before I get there, switch to the grid whenever the
-current state of the storage doesn't cut it.
+TODO
+
+### Sizing
+
+I want to power these machines and tools, barring any replacements that will not
+require wall power (battery-powered tools):
+
+- table saw
+- band saw
+- planer
+- plasma cutter
+- laser cutter
+- angle grinders
+- log splitter
+- wood chipper
+- garden tool outlet (lawnmower, strimmers)
 
 ## Window
 
-I have a unused utility window in my apartment which is very narrow and not too
-useful as a regular window, but it is positioned such that it gets a decent
-amount of light.
+I have a unused utility window in my apartment which is very narrow and faces in
+an odd direction, so I figured instead of just boarding it up I'd build a small
+system in it and see how it goes.
 
-I have decided to also run a miniature system for fun using solar panels that
-are chosen for fit instead of for performance and a PWM solar charge controller
-as the panels produce so little current, even when they are all in paralle, any
-dirt cheap solar charge controller can handle it and PWM is supposed to be a
-bit better for purely paralle installations.
+### Status
 
-The panels I bought to board up the window with are these:
+WIP
+
+### Sizing
+
+I don't really have a serious load in mind.
+As of current, I am powering a lamp with the system and use it to charge my
+phone sometimes.
+
+### System
+
+I bought the only 18 V panels on AliExpress that I was able to find that would
+fit the window, though they do almost perfectly:
 
 https://www.aliexpress.com/item/1005003123354268.html
 
-I bought six of them and wired them in parallel.
-They state an 18 V 5 W performance which works out to I = P/V = 5/18 = .278 A.
-6 in parallel then produce a string with 18 V 1.7 A theoretical performance.
+I have 6 of them and they all provide 18 V at 5 W (I = P / V = 5 / 18 = .278 A)
+and are wired in parallel so the whole array produces 18 V 1.7 A in theory.
 
-I got a super cheap PWM solar charge controller to go along with them:
+I am using a PWM charge controller as MPPT seems like a complete overkill for
+this use-case.
+Also, I read online that PWM is good for purely parallel installations, which I
+am not sure is true but this one happens to be one such so if it is, great.
 
 https://www.alza.cz/bygd-solarni-regulator-nabijeni-pv2420u-d6959817.htm
 
-The controller charges this little 12 V 7.2 Ah battery:
+The controller charges this little 12 V 7.2 Ah SLA battery:
 
 https://www.alza.cz/auto/csb-evx1272-baterie-12v-7-2ah-d5597727.htm
 
-I might end up upgrading to a bigger SLA battery, like this 12 V 24 Ah one:
+In theory, the system should make 18 W 1 A, so in 4 hours of peak sun, 72 Wh.
+The battery is 7.2 Ah at 12 V, that's 86 Wh.
+
+So we should be just shy of cycling the battery every day with this system.
+
+But in practice, due to the I guess side shade of the window frame or the bad
+orientation of the panels, I never see more than 13 V hit the charge controller
+and it seems to be able to top up the battery to 75 % going from 50 % charge.
+
+So I think I can cycle 25 % of the battery capacity every day.
+
+I also have another SLA battery at hand which I am not using for anything else
+but without better panels or better wiring, there is no point in using it:
 
 https://www.alza.cz/auto/goowei-energy-6-dzm-20-baterie-12v-24ah-electric-vehicle-d6217380.htm
 
-Or I might end up getting a LFP battery instead, I found this small one:
+I also have this LFP battery on order so that I can discharge the battery more
+deeply if needed, but it is unlikely to top up much more than the SLA one.
 
 https://www.aliexpress.com/item/1005002405783446.html
 
-The panels generate 1 A on 18 V, that's 18 W across the 6 panels in parallel.
-In 4 hours of peak sun, they could theoretically produce up to 72 Wh.
+25 % of the usable (cyclable) capacity that I have is around 22 Wh.
+I am powering an LED lamp off this system sometimes.
+It eats up 5 W so it could run for 4 hours off this battery's 25 % capacity.
 
-The battery has a capacity of 24 Ah at 12 V.
-That's 288 Wh.
+I am also thinking of powering a Pi Pico W off this system continuously.
+I found online that it eats 1 mA in sleep and 100 mA while running.
+It operates at either 3 or 5 V or I think even up to 9 A on the power pin?
+I will need a buck converter anyway or I might just run it off the USB port on
+the solar charge controller.
 
-It would require 16 hours of peak sun to charge it from zero to full capacity.
-I am ignoring the fact that it is a SLA battery for now as I will switch to LFP.
+Let's pretend .1 A at 12 V (if I used a buck converter), so that's 1.2 Wh.
+25 % of the battery capacity was 22 Wh so 22 Wh / 1.2 Wh is around 18 hours of
+operation.
 
-Since I can't cycle the battery daily, I need to work out how much of it I can
-drain in a day to have it be replenished the next day.
+That's non-ideal as it would drain more of the battery than the system can
+replenish over the course of the day.
 
-In 4 hours of peak sun I can put 72 Wh of energy into the battery, which is 25 %
-of its capacity.
-I can use up 25 % of the battery's capacity daily without worrying about using
-up more than the solar can recharge.
-In a realistic scenario, this will be closer to like 15 % because of the solar
-inefficiency (panel quality and orientation, weather conditions) and the losses
-incurred in the solar charge controller.
+I might be able to utilize sleep mode to bring the power down or use better
+panels to get more solar power or use 2s3p over 1s6p wiring to maybe be more
+resistant to shade and in turn also generate more power?
 
-I am thinking of running a Pi Pico W off this system.
-The information I found online suggests it can use anywhere between 1 mA while
-sleeping and 100 mA with the wi-fi chip running.
-That's 0.1 Ah to power the Pi Pico W for one hour with the wi-fi on.
-The Pi Pico W runs off 3.3 V or 5 V.
-At 5 V that's 0.5 Wh.
-25 % of the battery capacity is 72 Wh.
-That should work out to 144 h of operation off 25 % of the battery capacity.
-It looks like powering the Pi Pico W should be well within the capacity of this
-small system.
+Possible candidate solar panels:
 
-What about a 5 W 12 V LED car light?
-72 / 5 is 14 hours of continuous operation of the car light off 25 % battery.
-
-Next I will take a look at a Pi Pico with a camera connected running OCR on the
-PWM solar charge controller display to see if it could self-monitor.
-
-I might also try with 4 of these 18 V 30 W panels:
 https://www.aliexpress.com/item/1005003956761039.html
 
-They would get partially shaded but it could still work maybe?
-Their theoretical maximum is 120 Wh as opposed to the current 72 Wh.
-That's a nice bump.
+The are a worse fit for the window and would be permanently covered by the
+window frame at their horizontal edges but it might works out better overall?
+120 Wh as opposed to the current 72 Wh if parallel.
 
 ## Shop
 
