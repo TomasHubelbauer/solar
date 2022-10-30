@@ -84,3 +84,47 @@ https://www.aliexpress.com/item/1005003956761039.html
 The are a worse fit for the window and would be permanently covered by the
 window frame at their horizontal edges but it might works out better overall?
 120 Wh as opposed to the current 72 Wh if parallel.
+
+### Gauge issue
+
+
+### Battery gauge
+
+I bought this battery gauge:
+
+https://www.aliexpress.com/item/1005001763596519.html
+
+It shows 100 % no matter what.
+The voltage is displayed correctly.
+
+I think the problem might be with it not being set up for SLA?
+
+I have not found a way to configure it in this listing, but I found it listed by
+another vendor here:
+
+https://www.aliexpress.com/item/4000448925124.html
+
+Here are the instructions:
+
+1. Disconnect the module power supply, press and hold the setting button until 
+   powering the power module. Display shows the current power setting parameters
+2. Press the setting button to select P / L / F ,(P = 12V lead acid, L = 3.7V
+   lithium battery, F = 3.2V lithium iron phosphate battery)
+3. Press the function key to set the number of the battery string, according to
+   the function keys and set the key up or down to choose the number of
+   batteries in series
+4. Press the function key for a long time to enter the advanced setting
+   interface, use setting key to select S1-S5, enter key to select or cancel the
+   current mode
+5. Reenergize the power after setting.
+   The power automatically saves setting data.
+
+E.g. 10 lithium battery power, turn on power percentage and voltage automatic
+rotation display (S1 mode)
+
+Operation: Disconnect display module power, press and hold the setting button,
+power the power module, press the setting button for a short time to select L,
+press the function key to select 10, press the function key for a long time to
+select S1 and re-power.
+
+At some point I will figure this out and fix it.
