@@ -64,7 +64,7 @@ I bought 5 of these Victron BlueSolar solar panels:
 
 https://www.solar-eshop.cz/p/fv-panel-victron-energy-175wp
 
-![](victron-panel.png)
+![](victron-175wp.png)
 
 - [ ] Design and build a mount for the panels
 - [ ] Mount the panels onto the construction
