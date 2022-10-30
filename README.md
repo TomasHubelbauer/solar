@@ -8,48 +8,6 @@ a couple of other sites in the coming years.
 This document tracks the progress of my solar education as well as the status of
 all of the solar systems I have in mind or am already building.
 
-## House
-
-I don't intend on installing house solar myself.
-I would like to get a company to do it, but do it by the time I have gained
-enough knowledge and experience with solar that I'll be able to oversee the
-work and make sure I am not getting ripped off.
-Also, I think I will end up sourcing the panels and the batteries myself.
-This will most likely be a 48 V system.
-The goal is to make this an island system, I don't like the idea of grid-tie.
-
-### Status
-
-TODO
-
-## Shed
-
-I'm looking at getting a garden shed built and it seems like a prime opportunity
-to install solar and test out an island system.
-
-### Status
-
-TODO
-
-### Sizing
-
-The shed roof will be 7x4 m so 28 m2.
-I want to power the following appliances with the system:
-
-- lights (internal and external)
-- outlets (chargers and tools)
-- fridge
-- water heater / boiler
-- space heater / heat pump
-- water filter
-- cameras
-- network
-
-In order to make this system a reality, I will need to build the shed, but also
-to calculate the expected peak and sustained load of the above listed appliances
-and see if it would be possible to install enough panels to be able to cycle a
-battery daily and whether the battery bank would be able to support the loads.
-
 ## Basement
 
 I am tracking the electrification of the house in [House][#house], but I think
