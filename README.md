@@ -38,16 +38,17 @@ I also bought Will's book.
 
 1. Calculate the theoretical panel/array performance
   - Note that the panel voltage should be around 5 V above battery voltage
-  - Multiply amperage by voltage to get the wattage, e.g.: 10 A at 18 V = 180 W
-  - Multiply the power by the peak sun cover hours, e.g.: 180 W * 4 h = 720 Wh
-  - Multiply by the factor of 70 % to get closer to real life performance
+  - Multiply amperage by voltage for wattage, e.g.: 10 A at 40 V (2s1p) = 400 W
+  - Multiply the power by the peak sun cover hours, e.g.: 400 W * 2.5 h = 1 kWh
+  - Multiply by the factor of 70 % to approximate real life performance = 700 Wh
 2. Calculate the battery capacity
   - Multiply the amperage per hour by the voltage, e.g.: 200 Ah * 12 V = 2400 Wh
 3. Calculate the peak sun cover hours required to fully charge the battery
-  - Divide battery capacity by the solar capacity, e.g.: 2400 Wh / 720 Wh = 4 h
+  - Divide battery capacity by solar capacity, e.g.: 2400 Wh / 700 Wh = 3.5 h
 4. Calculate the desired load to see how long the battery can power it for
   - Ensure you are using compatible load, 12 V load for a 12 V battery
-  - Divide the battery capacity by the power draw, e.g.: 2400 Wh / 12 W = 6 d
+  - Divide the battery capacity by the power draw, e.g.:
+    2400 Wh / (15 W * 24 h) = 6.666 h
 
 ## WIP
 
