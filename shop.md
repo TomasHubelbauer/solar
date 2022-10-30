@@ -163,5 +163,27 @@ why these calculations don't work out.
 - [ ] Order another SOK battery to build a parallel battery bank
 - [ ] Research a true sine wave 230 V inverter
 - [ ] Get a USB C inverter for use with small electronics
+
+Alza offers several 12 V DC to 230 AC inverters, but they top out at 2 kW for 8k
+CZK:
+
+https://www.alza.cz/auto/carspa-px-2000-12v-sinus-2000w-d6847409.htm
+
+I found a 3 kW one for the same price here:
+
+https://www.nakuplevne.net/Soluowill-NP3000-cista-sinusovka-12V-230V-3000W-d3251.htm
+
+Not sure the quality though, I have to check some reviews.
+
+Victron has some regular looking ones, but nowhere near 3 kW, e.g.:
+
+https://www.mulac.cz/menice-napeti/12v-230v/phoenix-smart-122000-sinusovy-dcac-menic-s-bluetoothem.htm
+
+And they also have this fancy 2500 W beast:
+
+https://www.mulac.cz/menice-napeti/12v-230v/phoenix-inverter-123000-menic-napeti-sinus-ph123000.htm
+
+The Victron ones state humidity tolerance up to 95 % though which is nice.
+
 - [ ] Find out how come the panels can charge the battery when 624 Wh < 2400 Wh
 - [ ] Find out why the lights run for ~15 h not 2400/360 = 6.7 h on battery
