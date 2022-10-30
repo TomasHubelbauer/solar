@@ -8,6 +8,15 @@ a couple of other sites in the coming years.
 This document tracks the progress of my solar education as well as the status of
 all of the solar systems I have in mind or am already building.
 
+## Systems
+
+- [Shop](shop.md)
+- [Window](window.md)
+- [Shed](shed.md)
+- [Barn](barn.md)
+- [House](house.md)
+- [Basement](basement.md)
+
 ## Resources
 
 There is a bunch of solid solar resources online and I've already absorbed a
