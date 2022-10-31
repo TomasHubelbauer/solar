@@ -12,6 +12,7 @@ all of the solar systems I have in mind or am already building.
 
 - [ ] But a Victron battery monitor:
   https://www.victronenergy.com/battery-monitors/bmv-712-smart
+  https://www.naradihned.cz/monitorovaci-zarizeni/sledovac-stavu-bmv-712-smart
 - [ ] Consider a Victron battery balancer:
   https://www.victronenergy.com/battery-monitors/battery-balancer
 
