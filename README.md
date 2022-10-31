@@ -8,6 +8,13 @@ a couple of other sites in the coming years.
 This document tracks the progress of my solar education as well as the status of
 all of the solar systems I have in mind or am already building.
 
+## To-Do
+
+- [ ] But a Victron battery monitor:
+  https://www.victronenergy.com/battery-monitors/bmv-712-smart
+- [ ] Consider a Victron battery balancer:
+  https://www.victronenergy.com/battery-monitors/battery-balancer
+
 ## Systems
 
 - [Shop](shop.md)
